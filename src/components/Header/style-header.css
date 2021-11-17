@@ -1,0 +1,9 @@
+.header {
+  height: 120px;
+  width: 100%;
+  background: var(---color-primary);
+  background-image: url(../../images/bg-header-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

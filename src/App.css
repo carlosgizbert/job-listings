@@ -1,0 +1,30 @@
+@import url(./components/Card/style-card.css);
+@import url(./components/Header/style-header.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500&display=swap');
+
+:root {
+  /* CORES */
+  ---color-primary: #5ea4a4;
+  ---color-dark-00: #2c3a39;
+  ---color-grey-00: #8a908e;
+  ---color-grey-01: #c0c4c3;
+  ---color-background: #f0fafb;
+
+  /* TIPOGRAFIA */
+  ---font-00: 'Spartan', sans-serif;
+
+  /* ESPAÇAMENTOS */
+  ---space-small: 8px;
+  ---space-medium: 16px;
+  ---space-large: 24px;
+
+  /* BORDAS */
+  ---border-small: 4px;
+}
+
+body {
+  font-family: var(---font-00);
+  background: var(---color-background);
+  color: var(---color-dark-00);
+}
